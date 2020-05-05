@@ -3,9 +3,9 @@
 def countdown
   x = 10
   while x < 10
-    puts "#{x}"
+    puts "#{10 - x}"
     x -= 1
-  until x == 0
+  when x == 0
     puts "HAPPY NEW YEAR!"
   end
 end
