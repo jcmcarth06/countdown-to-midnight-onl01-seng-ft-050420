@@ -5,8 +5,7 @@ def countdown
   while x <= 10
     puts "#{x}"
     x -= 1
-    when x == 0
+end
+  when x == 0
     puts "HAPPY NEW YEAR!"
-    end
-  end
 end
